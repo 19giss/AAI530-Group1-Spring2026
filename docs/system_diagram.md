@@ -2,9 +2,9 @@
 
 ```mermaid
 flowchart LR
-  A[Roadway Traffic Sensors\n(loop detectors / roadside sensors)] --> B[Edge Gateway\naggregation + validation]
-  B --> C[Network Transport\ncellular/fiber; MQTT/HTTPS]
-  C --> D[Cloud / Central Platform\nstorage + preprocessing]
-  D --> E[Analytics + ML Pipeline\nbaseline + LSTM forecasting]
-  E --> F[Decision Support Layer\nTableau Dashboard + reports]
-  F --> G[Users\nTraffic operators + planners]
+  A["Roadway traffic sensors<br/>loop detectors, roadside sensors"] --> B["Edge gateway<br/>aggregation and validation"]
+  B --> C["Network transport<br/>cellular or fiber, MQTT or HTTPS"]
+  C --> D["Cloud or central platform<br/>storage and preprocessing"]
+  D --> E["Analytics and ML pipeline<br/>baseline and LSTM forecasting"]
+  E --> F["Decision support layer<br/>Tableau dashboard and reports"]
+  F --> G["Users<br/>traffic operators and planners"]
